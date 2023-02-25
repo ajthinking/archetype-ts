@@ -1,0 +1,15 @@
+{
+    "name": "archetype-ts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "tinker": "npx ts-node src/tinker.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^18.13.0",
+        "typescript": "^4.9.5",
+        "unplugin-auto-import": "^0.14.4",
+        "vitest": "^0.28.5"
+    }
+}
